@@ -133,7 +133,10 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #ffc553;
+}
+.icon-md{
+    color:#eec570;
 }
 
 .d-bloc .a-btn:hover,
@@ -335,6 +338,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    box-shadow: 0 0 8px #313030;
 }
 
 .navbar-toggle {
@@ -449,6 +453,10 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn:focus {
+    background: #ad1f39;
+    border: solid 1px white;
+}  
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -456,7 +464,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: rgb(17, 16, 16);
     background: rgba(0, 0, 0, .3);
 }
 
@@ -703,6 +711,9 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.social:focus span{
+    color: white;
+}
 
 h2 {
     font-size: 22px;
@@ -742,6 +753,9 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+.img-focus:focus .portfolio-thumb {
+    box-shadow: 0 0 15px #313030;
+}
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -753,7 +767,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(165 147 99);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,11 +785,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B75020;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -1039,4 +1053,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.navbar-brand:focus {
+    box-shadow: 0 0 8px #313030;
 }
