@@ -89,6 +89,10 @@ a:hover {
     left: 0;
     right: 0;
 }
+.contrast-bg {
+    background-color: #8a6d3b8c;
+    border-radius: 50px;
+}
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #ffc553;
+    color: #575757;
 }
 .icon-md{
     color:#eec570;
@@ -689,7 +693,8 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    font-size: 15px;
+    font-weight: 600;
     margin: auto auto auto auto;
 }
 
@@ -749,6 +754,11 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+.footer-p {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -767,13 +777,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(165 147 99);
+    background-color: #8a6d3bb0;
     padding: 40px 40px 40px 40px;
-}
-
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
+    border-radius: 50px;
 }
 
 .bgc-white {
@@ -785,7 +791,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #B75020;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -794,21 +800,14 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
-.ltc-white {
-    color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
-}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
